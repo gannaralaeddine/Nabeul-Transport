@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity
                         startActivity(new Intent(MainActivity.this , LocatationBusActivity.class));
                         return true;
                     case R.id.nav_reservation:
-                        //startActivity(new Intent(MainActivity.this , MesReservations.class));
+                        startActivity(new Intent(MainActivity.this , MesReservations.class));
                         return true;
                     case R.id.nav_about:
 
