@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+
+android:layout_height="match_parent" >
+android:layout_width="match_parent"
+
+android:layout_height="match_parent" >
+
+    <TextView
+
+        android:id="@+id/tvSelectTheme"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/settings_text_select_theme" />
+
+
+
+    <Spinner
+
+        android:id="@+id/spThemes"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/tvSelectTheme"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_toRightOf="@+id/tvSelectTheme"
+
+        android:entries="@array/theme_array"
+
+        android:spinnerMode="dropdown" />
+
+
+
+
+
+        android:id="@+id/rlCredentials"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tvSelectTheme" >
+
+
+
+
+</RelativeLayout>

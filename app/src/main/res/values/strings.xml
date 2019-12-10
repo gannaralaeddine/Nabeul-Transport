@@ -30,4 +30,14 @@
     <string name="prenom">Prenom</string>
     <string name="adresse">Adresse</string>
     <string name="confirmer">Confirmer</string>
+    <string name="title_activity_setting">parameters</string>
+    <string name="settings_text_select_theme">Select Theme:</string>
+
+    <string-array name="theme_array">
+
+        <item>Material-Light</item>
+
+        <item>Material-Dark</item>
+
+    </string-array>
 </resources>
