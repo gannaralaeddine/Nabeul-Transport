@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "874623153503",
+    "firebase_url": "https://nabeul-transport-2fd15.firebaseio.com",
+    "project_id": "nabeul-transport-2fd15",
+    "storage_bucket": "nabeul-transport-2fd15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874623153503:android:15a1e2139a10b2b25bf2ea",
+        "android_client_info": {
+          "package_name": "com.dsi31g13.nabeultransport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874623153503-lvk77b2kbf0l9ujri4dlojo84ra6b82f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dsi31g13.nabeultransport",
+            "certificate_hash": "68a5b5cee379ca1f803ed5145b3aeabcb663bdf0"
+          }
+        },
+        {
+          "client_id": "874623153503-ectbnp4gonjl6klqdat2igqp6256koba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxYZSqCTX6oYmb9R_MxsGOk_6HFMTNf0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874623153503-ectbnp4gonjl6klqdat2igqp6256koba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
