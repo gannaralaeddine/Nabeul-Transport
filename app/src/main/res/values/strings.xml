@@ -2,16 +2,16 @@
     <string name="app_name">Nabeul Transport</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Bonjourfragment</string>
     <string name="nav_header_title">Nom d\'utilisateur</string>
     <string name="nav_header_subtitle">E-mail</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="action_settings">Réglages</string>
     <string name="action_agences">Acceuil</string>
-    <string name="action_Signout">Sign Out</string>
+    <string name="action_Signout">Se déconnecter</string>
     <string name="tab_text_1">NORMAL</string>
     <string name="tab_text_2">CONFORT</string>
     <string name="type_bus">TYPE DE BUS</string>
