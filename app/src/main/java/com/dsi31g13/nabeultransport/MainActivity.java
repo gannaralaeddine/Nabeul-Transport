@@ -97,6 +97,63 @@ public class MainActivity extends AppCompatActivity
                         Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri1));
                         startActivity(intent1);
                         break;
+                    case 2:
+                        String uri2 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.3758851, 9.9020729);
+                        Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri2));
+                        startActivity(intent2);
+                        break;
+
+                    case 3:
+                        String uri3 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.6020043, 10.4956911);
+                        Intent intent3 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri3));
+                        startActivity(intent3);
+                        break;
+
+                    case 4:
+                        String uri4 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.4074345, 10.6118355);
+                        Intent intent4 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri4));
+                        startActivity(intent4);
+                        break;
+                    case 5:
+                        String uri5 = String.format(Locale.ENGLISH, "geo:%f,%f", 37.0537972, 11.00028);
+                        Intent intent5 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri5));
+                        startActivity(intent5);
+                        break;
+                    case 6:
+                        String uri6 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.5811224, 10.8615566);
+                        Intent intent6 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri6));
+                        startActivity(intent6);
+                        break;
+                    case 7:
+                        String uri7 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.682032, 10.584478);
+                        Intent intent7 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri7));
+                        startActivity(intent7);
+                        break;
+                    case 8:
+                        String uri8 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.7811472, 10.9938364);
+                        Intent intent8 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri8));
+                        startActivity(intent8);
+                        break;
+                    case 9:
+                        String uri9 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.4516598, 10.7295138);
+                        Intent intent9 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri9));
+                        startActivity(intent9);
+                        break;
+                    case 10:
+                        String uri10 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.8483391, 11.0874398);
+                        Intent intent10 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri10));
+                        startActivity(intent10);
+                        break;
+                    case 11:
+                        String uri11 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.6932594, 10.4932033);
+                        Intent intent11 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri11));
+                        startActivity(intent11);
+                        break;
+                    case 12:
+                        String uri12 = String.format(Locale.ENGLISH, "geo:%f,%f", 36.4001202, 10.1473317);
+                        Intent intent12 = new Intent(Intent.ACTION_VIEW, Uri.parse(uri12));
+                        startActivity(intent12);
+                        break;
 
                     default:
                         Toast.makeText(MainActivity.this, "Erreur", Toast.LENGTH_SHORT).show();
